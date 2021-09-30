@@ -85,7 +85,6 @@ router.put("/:id", auth, async (req, res) => {
     res.status(500).send("server error");
   }
 
-  res.send("update contacts");
 });
 
 // @route DELETE api/contacts/:id
